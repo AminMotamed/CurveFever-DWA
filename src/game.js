@@ -30,7 +30,7 @@ class Game {
   /**
    * @method Add a new Item in the game.
    *
-   * @param {String} name: the name of the item
+   * @param {String} name: The name of the item
    */
   addNewItem(name) {
     var position = this.world.spawnItem();
